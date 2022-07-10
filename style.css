@@ -1,0 +1,197 @@
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: 'Josefin Sans', sans-serif;
+            box-sizing: border-box;
+        }
+        
+        .hero {
+            background-image: url("https://i.pinimg.com/originals/e8/03/5b/e8035b3521b662d6fb143cd0c874f6e0.jpg");
+            height: 1000px;
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 45px;
+            padding-left: 8%;
+            padding-right: 8%;
+        }
+        
+        .logo {
+            color: white;
+            font-size: 35px;
+            letter-spacing: 1px;
+            cursor: pointer;
+        }
+        
+        span {
+            color: #f9004d;
+        }
+        
+        nav ul li {
+            list-style-type: none;
+            display: inline-block;
+            padding: 10px 25px;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: capitalize;
+        }
+        
+        nav ul li a:hover {
+            color: #f9004d;
+            transition: .4s;
+        }
+        
+        .content {
+            position: absolute;
+            top: 40%;
+            left: 8%;
+            transform: translate(10%);
+        }
+        
+        h1 {
+            color: white;
+            margin: 20px 0px 20px;
+            font-size: 75px;
+        }
+        
+        h3 {
+            color: white;
+            font-size: 25px;
+            margin-bottom: 20px;
+        }
+        
+        h4 {
+            color: #fcfc;
+            letter-spacing: 2px;
+            font-size: 20px;
+        }
+        
+        .about {
+            background-image: url("https://th.bing.com/th/id/OIP.lI-YcfrbDGi8jwfGAClrBAHaEK?w=323&h=181&c=7&r=0&o=5&dpr=1.25&pid=1.7");
+            height: 1000px;
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .main img {
+            height: auto;
+            width: 430px
+        }
+        
+        .about-text {
+            width: 550px;
+        }
+        
+        .main {
+            width: 1130px;
+            max-width: 95%;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        
+        .about-text h2 {
+            color: black;
+            font-size: 75px;
+            text-transform: capitalize;
+            margin-bottom: 20px;
+        }
+        
+        .about-text p {
+            color: blue;
+            letter-spacing: 1px;
+            line-height: 28px;
+            font-size: 18px;
+            margin-bottom: 45px;
+        }
+        
+        .qualifications {
+            background-image: url("https://wallpaperset.com/w/full/e/e/2/437977.jpg");
+            height: 2000px;
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .qualifications h6 {
+            color: white;
+            margin: 20px 0px 20px;
+            font-size: 75px;
+            align-items: center;
+        }
+        
+        table th {
+            text-align: left;
+            color: cyan;
+            width: 100px;
+            font-size: 40px;
+            position: relative;
+            padding: 4px 30px 4px 8px;
+            border: 1px solid cyan;
+        }
+        
+        table td {
+            color: whitesmoke;
+            width: 100px;
+            font-size: 40px;
+            position: relative;
+            padding: 4px 8px;
+            border: 1px solid cyan;
+        }
+        
+        .mytab {
+            margin-left: 100px;
+            margin-top: 85px;
+            margin-bottom: 200px;
+        }
+        
+        .photogallery {
+            background-image: url("https://www.bing.com/th?id=OIP.KnYXh3FcpxeIqtGiirBXrAHaEo&w=316&h=197&c=8&rs=1&qlt=90&o=6&dpr=1.25&pid=3.1&rm=2");
+            height: 1000px;
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .photogallery h7 {
+            color: black;
+            font-size: 75px;
+            text-transform: capitalize;
+            margin-bottom: 20px;
+            margin: 0 auto;
+            justify-content: space-around;
+        }
+        
+        .photogallery h8 {
+            color: black;
+            font-size: 40px;
+            display: flex;
+            position: relative;
+            margin-bottom: 20px;
+        }
+        
+        .gallery{
+            margin-left: 100px;
+            
+        }
+        
+        .image {
+            height: 400px;
+            width: 400px;
+            position: relative;
+            left: 800px;
+            bottom: 300px;
+            clip-path: circle();
+        }
